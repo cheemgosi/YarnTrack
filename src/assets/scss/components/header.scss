@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  .logo-container {
+    width: 33vw;
+    .full-logo {
+      display: flex;
+      align-items: center;
+
+      font-size: 18px;
+
+      width: fit-content;
+      .logo {
+        width: 35px;
+      }
+    }
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+  }
+
+  .notifications-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+
+    width: 33vw;
+
+    .svg{
+        width: 20px;
+    }
+
+    //https://codepen.io/sosuke/pen/Pjoqqp
+    .svg.moon, .svg.bell{
+        filter: brightness(0) saturate(100%) invert(84%) sepia(2%) saturate(4225%) hue-rotate(333deg) brightness(121%) contrast(99%);
+    }
+    
+  }
+}

@@ -1,0 +1,25 @@
+@import "./dark.scss";
+@import "./light.scss";
+
+@mixin theme($primary, $secondary, $ternary, $background, $text) {
+  --primary-color: #{$primary};
+  --secondary-color: #{$secondary};
+  --ternary-color: #{$ternary};
+  --background-color: #{$background};
+  --text-color: #{$text};
+}
+
+.dark-mode {
+  @include theme($primary-dark, $secondary-dark, $ternary-dark, $background-dark, $text-dark);
+}
+
+body {
+    @include theme($primary-light, $secondary-light, $ternary-light, $background-light, $text-light);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+  }
+
+  

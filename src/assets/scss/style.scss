@@ -1,0 +1,14 @@
+// Dark and light themes
+@import './themes/controller.scss';
+
+// Components
+@import './components/header.scss';
+
+// Tools
+@import './tools/hover.scss';
+@import './tools/clickable.scss';
+
+body {
+    margin: 0px 10px 0px;
+}
+

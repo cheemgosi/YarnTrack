@@ -20,9 +20,10 @@
     },
     "windows": [
       {
-        "title": "yarntrack",
-        "width": 800,
-        "height": 600
+        "title": "yarnTrack",
+        "minWidth": 1090,
+        "minHeight": 591,
+        "resizable": true
       }
     ],
     "security": {
