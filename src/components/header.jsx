@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="logo-container">
-        <div className="full-logo hover-darken clickable">
+        <div className="full-logo clickable">
           <img src={logo} alt="logo" className="logo" />
           YarnTrack
         </div>
@@ -20,8 +20,8 @@ const Header = () => {
       </div>
 
       <div className="notifications-container">
-        <img src={moon} alt="moon" className="svg moon"/>
-        <img src={bell} alt="bell" className="svg bell"/>
+        <img src={moon} alt="moon" className="svg moon hover-darken clickable"/>
+        <img src={bell} alt="bell" className="svg bell hover-darken clickable"/>
       </div>
     </div>
   );
