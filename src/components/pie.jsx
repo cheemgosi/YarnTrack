@@ -54,7 +54,7 @@ const Pie = () => {
       <div className="title-small">
         Prekių likutis
       </div>
-      <PieChart
+      <PieChart className="center-vertical"
         ref={chartRef}
         series={[
           {
