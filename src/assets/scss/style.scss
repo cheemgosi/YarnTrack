@@ -3,10 +3,13 @@
 
 // Components
 @import './components/header.scss';
+@import './components/pieChart.scss';
+@import './components/containers.scss';
 
 // Tools
 @import './tools/hover.scss';
 @import './tools/clickable.scss';
+@import './tools/title.scss';
 
 body {
     margin: 0px 10px 0px;

@@ -1,8 +1,14 @@
+import { Link } from "react-router-dom";
+
 import logo from "../../src-tauri/icons/Square107x107Logo.png";
 import moon from "../../src/assets/svgs/moon.svg"
 import bell from "../../src/assets/svgs/bell.svg"
 
 const Header = () => {
+
+
+
+
   return (
     <div className="header">
       <div className="logo-container">
@@ -13,8 +19,8 @@ const Header = () => {
       </div>
 
       <div className="menu">
-        <div className="menu-option hover-darken clickable">Pagrindinis</div>
-        <div className="menu-option hover-darken clickable">Inventorius</div>
+        <Link to="/" className="menu-option hover-darken clickable">Pagrindinis</Link>
+        <Link to="/inv" className="menu-option hover-darken clickable">Inventorius</Link>
         <div className="menu-option hover-darken clickable">Užsakymai</div>
         <div className="menu-option hover-darken clickable">Analizė</div>
       </div>

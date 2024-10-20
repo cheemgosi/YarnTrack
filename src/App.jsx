@@ -1,11 +1,19 @@
-import Header from "./components/header";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/home.jsx";
+import Inventory from "./pages/inventory.jsx";
+import Header from './components/header.jsx'
 
 function App() {
   
   return (
-    <div>
+    <BrowserRouter>
       <Header />
-    </div>
+      <Routes>
+          <Route index element={<Home />} />
+          <Route path="inv" element={<Inventory />} />
+          {/* <Route path="*" element={<NoPage />} /> */}
+      </Routes>
+    </BrowserRouter>
   );
 }
 
