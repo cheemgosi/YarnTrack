@@ -5,12 +5,15 @@
 @import './components/header.scss';
 @import './components/pieChart.scss';
 @import './components/containers.scss';
+@import './components/inventoryList.scss';
 
 // Tools
 @import './tools/hover.scss';
 @import './tools/clickable.scss';
 @import './tools/title.scss';
 @import './tools/center.scss';
+@import './tools/svg.scss';
+@import './tools/spacing.scss';
 
 body {
     margin: 0px 10px 0px;

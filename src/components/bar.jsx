@@ -6,7 +6,7 @@ function valueFormatter(value) {
 }
 
 const chartSetting = {
-  width: 600,
+  width: 546,
   height: 250,
 };
 
